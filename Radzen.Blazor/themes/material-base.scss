@@ -540,7 +540,7 @@ $switch-height: 0.875rem !default;
 $switch-circle-background-color: var(--rz-text-contrast-color) !default;
 $switch-checked-circle-background-color: var(--rz-on-primary-lighter) !default;
 $switch-circle-size: 1.25rem !default;
-$switch-circle-margin: 0 !default;
+$switch-circle-offset: 0 !default;
 
 .rz-switch .rz-switch-circle {
   &:hover:not(.rz-disabled) {
