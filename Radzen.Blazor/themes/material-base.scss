@@ -447,7 +447,8 @@ $panel-menu-icon-2nd-level-margin: 0 1rem 0 -2.25rem !default;
 $profile-menu-background-color: var(--rz-base-background-color) !default;
 $profile-menu-top-item-background-color: var(--rz-primary) !default;
 $profile-menu-border: none !default;
-$profile-menu-padding: 0.5rem 1rem !default;
+$profile-menu-padding-block: 0.5rem !default;
+$profile-menu-padding-inline: 1rem !default;
 $profile-menu-toggle-button-color: var(--rz-text-contrast-color) !default;
 $profile-menu-item-hover-background-color: var(--rz-base-100) !default;
 
