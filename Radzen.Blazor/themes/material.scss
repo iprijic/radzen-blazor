@@ -502,7 +502,8 @@ $gravatar-width: 2.5rem !default;
 
 // Steps
 $steps-color: var(--rz-text-tertiary-color) !default;
-$steps-number-padding: 0.25rem 0 !default;
+$steps-number-padding-block: 0.25rem !default;
+$steps-number-padding-inline: 0 !default;
 $steps-number-background-color: var(--rz-base-500) !default;
 $steps-number-color: var(--rz-text-contrast-color) !default;
 
@@ -520,7 +521,7 @@ $steps-number-color: var(--rz-text-contrast-color) !default;
         content: '';
         flex: auto;
         height: 1px;
-        margin-right: 16px;
+        margin-inline-end: 16px;
         background-color: var(--rz-base-300);
       }
     }
