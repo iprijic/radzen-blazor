@@ -208,10 +208,10 @@ $context-menu-box-shadow: $rz-shadow-3 !default;
       &:before {
         position: absolute;
         content: '';
-        bottom: -2px;
+        inset-block-end: -2px;
         height: 1px;
-        left: 0;
-        right: 0;
+        inset-inline-start: 0;
+        inset-inline-end: 0;
         background-color: var(--rz-menu-top-item-selected-color);
         margin-inline-start: 0.5rem;
         margin-inline-end: 0.5rem;
